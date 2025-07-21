@@ -59,7 +59,7 @@ a:hover {
 }
 
 .main-container {
-  max-width: 600px;
+  max-width: 90vw;
   margin: 40px auto;
   background: #fff;
   border-radius: 18px;
