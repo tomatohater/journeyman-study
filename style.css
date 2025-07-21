@@ -58,14 +58,14 @@ a:hover {
   text-decoration: underline;
 }
 
-.main-container {
+/* .main-container {
   max-width: 90vw;
   margin: 40px auto;
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 4px 24px rgba(44, 62, 80, 0.12);
   padding: 36px 32px;
-}
+} */
 
 .flashcard {
     width: 80vw;
