@@ -78,9 +78,9 @@ flashcard.addEventListener('click', () => {
     const back = flashcard.querySelector('.back');
     if (front.style.display !== 'none') {
         front.style.display = 'none';
-        back.style.display = '';
+        back.style.display = 'block';
     } else {
-        front.style.display = '';
+        front.style.display = 'block';
         back.style.display = 'none';
     }
 });
