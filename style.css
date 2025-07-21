@@ -99,10 +99,11 @@ a:hover {
     transform: rotateY(180deg);
 }
 
-.flashcard:hover .front {
+/* .flashcard:hover .front {
     transform: rotateY(180deg);
 }
 
 .flashcard:hover .back {
     transform: rotateY(0deg);
 }
+ */
