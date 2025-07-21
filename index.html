@@ -11,25 +11,24 @@
         <h1>Journeyman Flashcards</h1>
     </header>
     <main>
-    <label for="chapter-select">Select Chapter:</label>
-    <select id="chapter-select"></select>
-    
-    <div class="flashcard" id="flashcard">
-        <div class="front">
-            <p id="question-text">Question</p>
+        <label for="chapter-select">Select Chapter:</label>
+        <select id="chapter-select"></select>
+        
+        <div class="flashcard" id="flashcard">
+            <div class="front">
+                <p id="question-text">Question</p>
+            </div>
+            <div class="back" style="display: none;">
+                <p id="answer-text">Answer</p>
+            </div>
         </div>
-        <div class="back" style="display: none;">
-            <p id="answer-text">Answer</p>
+        
+        <div class="navigation">
+            <button id="prev-btn">&larr;</button>
+            <span id="counter">Question 1 out of 1</span>
+            <button id="next-btn">&rarr;</button>
         </div>
-    </div>
-    
-    <div class="navigation">
-        <button id="prev-btn">&larr;</button>
-        <span id="counter">Question 1 out of 1</span>
-        <button id="next-btn">&rarr;</button>
-    </div>
-</main>
-<script src="script.js"></script>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
