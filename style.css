@@ -96,7 +96,8 @@ a:hover {
 
 .flashcard .back {
     background-color: #ffccbc;
-    transform: rotateY(180deg);
+    display: none;
+/*     transform: rotateY(180deg); */
 }
 
 /* .flashcard:hover .front {
