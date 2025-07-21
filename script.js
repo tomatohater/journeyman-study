@@ -79,9 +79,9 @@ flashcard.addEventListener('click', () => {
     if (front.style.display !== 'none') {
         front.style.display = 'none';
         back.style.display = '';
-    } else {
-        front.style.display = '';
-        back.style.display = 'none';
+    // } else {
+    //     front.style.display = '';
+    //     back.style.display = 'none';
     }
 });
 
